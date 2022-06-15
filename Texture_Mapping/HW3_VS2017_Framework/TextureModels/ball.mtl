@@ -1,0 +1,9 @@
+## Material file output by AC3D
+newmtl newmtl_1
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ka 0.200000 0.200000 0.200000
+Ns 10.000000
+Tr 1.000000
+illum 2
+map_Kd moon.jpg
