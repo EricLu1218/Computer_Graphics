@@ -122,9 +122,9 @@ void main()
 
     // [TODO] sampleing from texture
     // Hint: texture
-	/* HW3 added */
-	if (isEye == 0)
-    	fragColor *= texture(diffuseTexture, texCoord);
-	else
-		fragColor *= texture(diffuseTexture, texCoord + vec2(offsetX, offsetY));
+    /* HW3 added */
+    if (isEye == 0)
+        fragColor *= texture(diffuseTexture, texCoord);
+    else
+        fragColor *= texture(diffuseTexture, texCoord + vec2(offsetX, offsetY));
 }
